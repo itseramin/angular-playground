@@ -14,13 +14,11 @@ export class AppComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.meta.removeTag('charset=utf-8');
     this.meta.addTags([
       { charset: 'UTF-8' },
       { name: 'author', content: 'Benjamin Hera' },
       { name: 'date', content: '2021-09-20', scheme: 'YYYY-MM-DD' },
       { name: 'robots', content: 'index, follow' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     ]);
     let i18nTitle = $localize`:@@title:Angular playground`;
     this.title.setTitle(i18nTitle);
