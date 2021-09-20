@@ -6,7 +6,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: { title: $localize`:@@homeTitle:Home | Angular Playground` } },
-  { path: '**', component: NotfoundComponent, data: { title: '404' } },
+  { path: '**', component: NotfoundComponent, data: { title: $localize`:@@notFoundTitle:404 | Angular Playground` } },
 ];
 
 @NgModule({
