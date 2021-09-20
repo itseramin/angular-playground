@@ -1,7 +1,6 @@
 import { Component, OnInit  } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -20,7 +19,6 @@ export class AppComponent implements OnInit {
       { name: 'date', content: '2021-09-20', scheme: 'YYYY-MM-DD' },
       { name: 'robots', content: 'index, follow' },
     ]);
-    let i18nTitle = $localize`:@@title:Angular playground`;
-    this.title.setTitle(i18nTitle);
+    this.title.setTitle($localize`:@@seoTitle:Angular playground`);
   }
 }
