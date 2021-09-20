@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, Meta } from '@angular/platform-browser';
+import { BrowserModule, Meta, Title } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,7 +18,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     NgbModule
   ],
-  providers: [ Meta ],
+  providers: [ Meta, Title ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
