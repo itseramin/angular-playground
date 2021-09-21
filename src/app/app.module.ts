@@ -8,17 +8,9 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NotfoundComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
-  providers: [ Meta, Title ],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent, HomeComponent, NotfoundComponent],
+  imports: [AppRoutingModule, BrowserModule, NgbModule],
+  providers: [Meta, Title],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

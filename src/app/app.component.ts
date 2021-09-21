@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { filter } from 'rxjs/operators';
 
 @Component({
@@ -10,18 +10,17 @@ import { filter } from 'rxjs/operators';
 })
 export class AppComponent implements OnInit {
   constructor(
-    private meta: Meta,
-    private titleService: Title,
+    private activatedRoute: ActivatedRoute,
+    private metaService: Meta,
     private router: Router,
-    private activatedRoute: ActivatedRoute
+    private titleService: Title
   ) {}
 
   ngOnInit() {
-    this.meta.addTags([
+    this.metaService.addTags([
       { charset: 'UTF-8' },
       { name: 'author', content: 'Benjamin Hera' },
       { name: 'description', content: "Benjamin's playground for Angular 🪁" },
-      { name: 'date', content: '2021-09-20', scheme: 'YYYY-MM-DD' },
       { name: 'robots', content: 'index, follow' },
     ]);
 
