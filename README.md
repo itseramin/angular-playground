@@ -1,4 +1,4 @@
-# My Angular Playground
+# Angular Playground
 
 ## Localization
 
