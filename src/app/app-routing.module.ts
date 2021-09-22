@@ -17,9 +17,13 @@ const routes: Routes = [
     data: { title: $localize`:@@contactTitle:Contact | Angular Playground` },
   },
   {
-    path: '**',
+    path: '404',
     component: NotfoundComponent,
     data: { title: $localize`:@@notFoundTitle:404 | Angular Playground` },
+  },
+  {
+    path: '**',
+    redirectTo: '/404',
   },
 ];
 
