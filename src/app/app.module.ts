@@ -4,11 +4,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { NotfoundComponent } from './notfound/notfound.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './routes/home/home.component';
+import { NotfoundComponent } from './routes/notfound/notfound.component';
+import { ContactComponent } from './routes/contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NotfoundComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, NotfoundComponent, ContactComponent],
   imports: [AppRoutingModule, BrowserModule, NgbModule],
   providers: [Meta, Title],
   bootstrap: [AppComponent],

@@ -30,6 +30,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "aot": true,
+            "i18nMissingTranslation": "error",
             "outputPath": "dist/angular-playground",
             "index": "src/index.html",
             "localize": true,

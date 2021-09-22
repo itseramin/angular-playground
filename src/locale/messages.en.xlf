@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
@@ -10,12 +10,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.carousel.slide-number" datatype="html">
-        <source>
-          Slide
-          <x id="INTERPOLATION" equiv-text="Subject(false);" />
-          of
-          <x id="INTERPOLATION_1" equiv-text="er$ = new Behav" />
-        </source>
+        <source> Slide <x id="INTERPOLATION" equiv-text="Subject(false);"/> of <x id="INTERPOLATION_1" equiv-text="er$ = new Behav"/> </source>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
           <context context-type="linenumber">113,118</context>
@@ -137,12 +132,10 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.progressbar.value" datatype="html">
-        <source>
-          <x id="INTERPOLATION" equiv-text="; }
+        <source><x id="INTERPOLATION" equiv-text="; }
 
   /**
-   *" />
-        </source>
+   *"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/src/progressbar/progressbar.ts</context>
           <context context-type="linenumber">32,38</context>
@@ -233,18 +226,14 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.timepicker.AM" datatype="html">
-        <source>
-          <x id="INTERPOLATION" equiv-text="ype_size: strin" />
-        </source>
+        <source><x id="INTERPOLATION" equiv-text="ype_size: strin"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">114,118</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.timepicker.PM" datatype="html">
-        <source>
-          <x id="INTERPOLATION" equiv-text="hether to displ" />
-        </source>
+        <source><x id="INTERPOLATION" equiv-text="hether to displ"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">121,126</context>
@@ -262,7 +251,15 @@
         <target>Home | Angular Playground</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app-routing.module.ts</context>
-          <context context-type="linenumber">8</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactTitle" datatype="html">
+        <source>Contact | Angular Playground</source>
+        <target>Contact | Angular Playground</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app-routing.module.ts</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="notFoundTitle" datatype="html">
@@ -270,23 +267,47 @@
         <target>404 | Angular Playground</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app-routing.module.ts</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="homeHeader" datatype="html">
-        <source>Angular playground</source>
+      <trans-unit id="headerBrandLarge" datatype="html">
+        <source>Angular Playground</source>
         <target>Angular Playground</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="headerBrandSmall" datatype="html">
+        <source>AP</source>
+        <target>AP</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="headerRouteContact" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeText" datatype="html">
+        <source>Oh, hi. Thanks for checking in!</source>
+        <target>Oh, hi. Thanks for checking in!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/routes/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
       <trans-unit id="notFoundBackToHome" datatype="html">
         <source>Back To Home!</source>
         <target>Back To Home!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/notfound/notfound.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="sourcefile">src/app/routes/notfound/notfound.component.html</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
     </body>
