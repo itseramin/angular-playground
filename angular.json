@@ -16,7 +16,7 @@
       "i18n": {
         "sourceLocale": {
           "code": "en",
-          "baseHref": "/"
+          "baseHref": "/en/"
         },
         "locales": {
           "hu": {
@@ -116,9 +116,14 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
+          "builder": "@angular/fire:deploy",
           "options": {
-            "baseHref": "/angular-playground/"
+            "public": "dist/angular-playground/",
+            "rewrites": [ {
+              "source": "**",
+              "destination": "/en/index.html"
+            } ],
+            "cleanUrls": true
           }
         }
       }

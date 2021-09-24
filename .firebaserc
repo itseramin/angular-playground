@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-playground-fdd57": {
+      "hosting": {
+        "angular-playground": [
+          "angular-playground-fdd57"
+        ]
+      }
+    }
+  }
+}
